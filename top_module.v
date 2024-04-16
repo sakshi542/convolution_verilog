@@ -7,7 +7,7 @@ module top_module (
 );
 
 // Instantiate the linear_convolution_fsm module
-linear_convolution_fsm linear_convolution_fsm_inst (
+datapath_controller datapathController_inst (
     .signal1(signal1),
     .signal2(signal2),
     .result(result),
